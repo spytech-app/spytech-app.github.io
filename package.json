@@ -1,0 +1,14 @@
+{
+  "name": "spytech-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/spytech-app/spytech-app.github.io.git",
+  "author": "spytech-app <spytechapp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  },
+  "scripts": {
+   "deploy": "gh-pages -d ."
+  }
+  }
